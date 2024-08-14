@@ -1,0 +1,13 @@
+package testsel;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+public class test {
+	public static void main(String args[])
+	{
+		ChromeDriver driver=new ChromeDriver();
+		driver.get("file:///D:\\AHS & BOOKS\\PRO\\ahsmob.html");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\vasud\\Downloads\\chromedriver-win64\\chrome-win64.exe");
+		
+	}
+
+}
